@@ -1,0 +1,16 @@
+To whom this may concern, here are the steps I took to fix Horieson's website.
+
+1.) Changed Website name to Horieson. 
+
+2.)<h1>Hori<span class="seo">seo</span>n</h1> *fixed by removing span and combining to div*
+
+3.) I put div into section to organize and allow the hrefs to be centered to the right within the header. also changed CSS 
+    positioning on "main-services" to inline to allow alignment with the <h1>-->
+
+4.) This link is broken because it is not using an id# so I changed it to id instead of class so in CSS and I also changed anything SEO related to #search-engine-optimization to match styles-->
+
+5.) I Changed height from 800px to 1000px to match image to example document (you can see by looking at the top left window in relation to the wood above the whiteboard)
+
+6.) I fixed "benefits by changing height to 1000px in CSS" and changed the padding to 10px on the footer to match the example
+
+7.) Deleted Horieson logo at bottom. 
