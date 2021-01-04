@@ -4,30 +4,47 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
+    <!--Changed Website to Horieson-->
 </head>
 
 <body>
-    <!--Figure out what to use thats not a div-->
+
     <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
+        <!-- <h1>Hori<span class="seo">seo</span>n</h1>
+            *fixed by removing span and combining to div*-->
+
+        <h1>Horiseon</h1>
+
+
+        <section id="main-services">
+            <!--put div into section to organize and allow the hrefs to be centered to the right within the header. also changed CSS 
+            positioning on "main-services" to inline to allow alignment with the <h1>-->
+            <div>
+                <ul>
+                    <li>
+                        <a href="#search-engine-optimization">Search Engine Optimization</a>
+                        <!-- This link is broken because it is not using an id# so I changed it to id instead of class so in CSS 
+                            I also changed anything SEO related to #search-engine-optimization to match styles-->
+                    </li>
+                    <li>
+                        <a href="#online-reputation-management">Online Reputation Management</a>
+                    </li>
+                    <li>
+                        <a href="#social-media-marketing">Social Media Marketing</a>
+                    </li>
+                </ul>
+            </div>
     </div>
+    </section>
+
     <div class="hero"></div>
+    <!--Changed height from 800px to 1000px to match image to example document (you can see by looking at the top left window in relation to the wood above the whiteboard)-->
+
+    
     <div class="content">
-        <div class="search-engine-optimization">
+
+        <div id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -36,6 +53,8 @@
                 your visibility and find the right customers for your business.
             </p>
         </div>
+
+
         <div id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -45,6 +64,8 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </div>
+
+
         <div id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -55,6 +76,8 @@
             </p>
         </div>
     </div>
+
+
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -72,6 +95,8 @@
                 for your business.
             </p>
         </div>
+
+
         <div class="benefit-cost">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
@@ -81,12 +106,15 @@
             </p>
         </div>
     </div>
+    <!--fixed "benefits by changing height to 1000px in CSS" and changed the padding to 10px on the footer to match the example-->
     <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
+        <!--<h2>Made with ❤️️ by Horiseon</h2>
+                    <p>
+                        &copy; 2019 Horiseon Social Solution Services, Inc.
+                    </p> -->
     </div>
+
+
 </body>
 
 </html>
